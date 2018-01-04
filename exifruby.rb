@@ -15,6 +15,7 @@ class MyCLI < Thor
 
       For example:
         ./exifruby.rb filename2datetime --folderpath test --format '%Y%m%d' --regexp 'IMG-(\d{8})'
+        ./exifruby.rb filename2datetime --folderpath test2 --format '%Y%m%d_%H%M%S' --regexp 'IMG_(\d{8}_\d{6})'
   LONGDESC
   def filename2datetime
     puts "Start ..."
